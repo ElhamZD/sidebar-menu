@@ -1,0 +1,10 @@
+$(function(){
+    $("button").click(function(){
+        $(".sideBar").addClass("appear");
+        $("button").addClass("move");
+    });
+     $(".close").click(function(){
+        $(".sideBar").removeClass("appear");
+        $("button").removeClass("move");
+    });
+ });
